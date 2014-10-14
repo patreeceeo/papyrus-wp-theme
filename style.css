@@ -57,7 +57,7 @@ body {
 	overflow:hidden;
 	/* font-family: "helvetica neue", Helvetica, Arial, sans-serif; */
   /* TODO: find a better sans-serif font */
-  font-family: sans-serif;
+  font-family: sans-serif !important;
 }
 .page-container{
 	padding-top:10px;
@@ -431,7 +431,7 @@ h1,h2,h3,h4,h5,h6 {
     clear:both;
 	line-height:1.2em;
   /* TODO: find a better font */
-  font-family: fantasy;
+  font-family: fantasy !important;
 }
 h1 {	font-size: 27px;}
 h2 {	font-size: 34px;}
@@ -1434,7 +1434,7 @@ article.format-image .wp-caption a:hover:after{
 	font-size:14px !important;
   color: white;
   letter-spacing: 1px;
-  font-family: sans-serif;
+  font-family: sans-serif !important;
   font-weight: bold;
 }
 
