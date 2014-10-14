@@ -1869,7 +1869,7 @@ address {
 	display:block;
 	z-index:9999;
   color: white;
-  background-color: #d72555;
+  background-color: #d72555 !important;
   background-image: url(http://papyrusoft.com/wp-content/uploads/2014/10/papyrusbg.png);
   background-position: 100%;
   background-repeat: repeat-y;
