@@ -55,7 +55,9 @@ body {
   text-rendering:optimizelegibility;
   color:#333333;
 	overflow:hidden;
-	font-family: "helvetica neue", Helvetica, Arial, sans-serif;
+	/* font-family: "helvetica neue", Helvetica, Arial, sans-serif; */
+  /* TODO: find a better sans-serif font */
+  font-family: sans-serif;
 }
 .page-container{
 	padding-top:10px;
@@ -428,6 +430,8 @@ textarea{
 h1,h2,h3,h4,h5,h6 {
     clear:both;
 	line-height:1.2em;
+  /* TODO: find a better font */
+  font-family: fantasy;
 }
 h1 {	font-size: 27px;}
 h2 {	font-size: 34px;}
@@ -566,7 +570,7 @@ button, input {
 button,html input[type="button"],input[type="reset"],input[type="submit"] {
     background:#f15a23;
 	border:none;
-    font-family:"Open Sans";
+    font-family: sans-serif;
     color: #fff;
 	text-transform:uppercase;
     cursor:pointer;
@@ -1272,6 +1276,9 @@ header.post-header, .blog_post {
   float:left;
   margin:0;
 	background: #F15A23; 
+
+  /* TODO: decide if this element is still wanted at all */
+  display: none;
 }
 .blog_post .date_of_post .day_post {
   font-size:34px;
@@ -1308,7 +1315,7 @@ header.post-header, .blog_post {
 }
 .blog_post .post-content .entry-content,
 .blog_post .post-content .entry-summary{
-	padding:20px 4.4% 10px;
+	/* padding:20px 4.4% 10px; */
 	margin-top:0
 }
 .blog_post .post-content footer.entry-meta{
@@ -1426,7 +1433,9 @@ article.format-image .wp-caption a:hover:after{
 .logo-description h2.site-description {
 	font-size:14px !important;
   color: white;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .logo-description h2.site-description:hover {
@@ -1439,6 +1448,7 @@ header.post-header .post-title {
   margin:14px 0 0;
   padding: 0 4.4% 13px ;
 	word-wrap: break-word;
+  font-weight: bold;
 }
 header.post-header .post-title a {
     text-decoration:none;
