@@ -1444,6 +1444,10 @@ article.format-image .wp-caption a:hover:after{
   border-bottom: 0;
 }
 
+.nav-next a, .nav-previous a {
+  display: inline-block;
+}
+
 .main-navigation a {
   color: #d72555 !important;
 }
