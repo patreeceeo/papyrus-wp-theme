@@ -1444,7 +1444,7 @@ article.format-image .wp-caption a:hover:after{
   font-weight: bold;
 }
 
-a.logo-description, .nav-next a {
+.main-navigation a, a.logo-description, .nav-next a {
   border-bottom: 0;
 }
 
