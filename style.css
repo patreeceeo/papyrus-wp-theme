@@ -1304,10 +1304,6 @@ header.post-header, .blog_post {
 	position:relative;
 	top: -6px;
 }
-.blog .post-title,
-.single .post-title{
-	line-height:24px;
-}
 .blog_post .post-content {
   float:left;
   width:884px;
@@ -1456,7 +1452,7 @@ header.post-header .post-title {
   float:left;
   width:91.21%;
   margin:14px 0 0;
-  padding: 0 4.4% 13px ;
+  padding: 0 0 13px;
 	word-wrap: break-word;
   font-weight: bold;
 }
