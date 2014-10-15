@@ -12,6 +12,8 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/* TODO: get rid of styles in index so !important isn't needed as much */
+
 /* Font Awesome  */
 @font-face {
   font-family: 'FontAwesome';
@@ -644,11 +646,13 @@ textarea {
     width:98%;
 }
 a {
-    color:#333333;
+    color: #000 !important;
+    text-decoration: underline;
 }
 
 a:hover,a:focus,a:active {
-    color:#FF5D2A;
+    color: #61c08b !important;
+    text-decoration: none;
 }
 
 #commentform label {
