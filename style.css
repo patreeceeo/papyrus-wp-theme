@@ -1029,7 +1029,7 @@ ul#lang-select-popup{
     display:inline;
 }
 .entry-content,.entry-summary {
-    margin:1.5em 0 0;
+    margin: 0;
 }
 .page-links {
     clear:both;
@@ -1168,8 +1168,8 @@ section {
 
 #page {position:relative;}
 #page .container .btm_header, #page .container .entry-header {
-	border:0;
-	margin: 0 0 10px;
+	border: 0;
+	margin: 0;
 }
 
 .search #page .container  .entry-header {
