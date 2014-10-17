@@ -1129,9 +1129,6 @@ embed,iframe,object {
     width:46%;
 }
 .bypostauthor {}
-.widget {
-    margin:0 0 1.5em;
-}
 #searchsubmit {
     display:none;
 }
