@@ -2527,10 +2527,10 @@ div#fbSEOComments{
 	width:100%;
 }
 
-.person-image {
+img.person-image {
   float: right;
   height: 150px;
-  width: auto;
+  width: 150px;
   padding: 5px;
   border: 1px dotted #333;
 }
