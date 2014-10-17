@@ -2527,6 +2527,8 @@ div#fbSEOComments{
 	width:100%;
 }
 
+/* end styles for plugin "SEO Facebook Comments" */
+
 img.person-image {
   float: right;
   height: 150px;
@@ -2534,4 +2536,9 @@ img.person-image {
   padding: 5px;
   border: 1px dotted #333;
 }
-/* end styles for plugin "SEO Facebook Comments" */
+
+.u-no-text-wrap {
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
