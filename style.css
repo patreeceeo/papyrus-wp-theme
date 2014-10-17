@@ -2526,4 +2526,12 @@ div#fbSEOComments{
 	float:left;
 	width:100%;
 }
+
+.person-image {
+  float: right;
+  height: 150px;
+  width: auto;
+  padding: 5px;
+  border: 1px dotted #333;
+}
 /* end styles for plugin "SEO Facebook Comments" */
