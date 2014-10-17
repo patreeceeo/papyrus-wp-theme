@@ -758,10 +758,11 @@ ul#lang-select-popup{
     text-transform: none;
 }
 .main-navigation {
-    display:block;
-    float:left;
-    margin:10px 0 0 0;
+  display:block;
+  float:left;
+  margin:10px 0 0 0;
 	position:relative;
+  background-color: transparent !important;
 }
 .main-navigation ul {
     list-style:none;
@@ -775,18 +776,16 @@ ul#lang-select-popup{
 
 .main-navigation li {
     margin:0 0 0 10px;
-}
-
-.main-navigation li {
+    background-color: white;
     float:left;
     position:relative;
 }
 .main-navigation a {
-    display:block;
-    text-decoration:none;
-    /*color:#333333;*/
-    text-transform:uppercase;
-    padding:7px 10px;
+  display:block;
+  text-decoration:none;
+  /*color:#333333;*/
+  text-transform:uppercase;
+  padding:7px 10px;
 	font-size:14px;
 }
 
@@ -1457,9 +1456,9 @@ article.format-image .wp-caption a:hover:after{
 }
 
 header.post-header .post-title {
-  float:left;
-  width:91.21%;
-  margin:14px 0 0;
+  float: left;
+  width: 91.21%;
+  margin: 14px 0 0;
   padding: 0 0 13px;
 	word-wrap: break-word;
   font-weight: bold;
