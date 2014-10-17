@@ -1478,6 +1478,11 @@ header.post-header .post-title a {
   color: white;
   border: 0;
   margin-bottom: 10px;
+
+  /* show ellipsis where text overflows its content box */
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
 }
 #page .container #secondary .widget ul {
     float:left;
@@ -2542,3 +2547,4 @@ img.person-image {
   text-overflow: ellipsis !important;
   overflow: hidden !important;
 }
+
