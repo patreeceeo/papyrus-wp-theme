@@ -1088,6 +1088,9 @@ ul#lang-select-popup{
 .wp-caption img {
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
 }
+.wp-caption a {
+  border-bottom: 0;
+}
 .wp-caption-text {
     text-align:center;
 }
