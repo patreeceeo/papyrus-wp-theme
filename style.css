@@ -429,7 +429,7 @@ h1,h2,h3,h4,h5,h6 {
     clear:both;
 	line-height:1.2em;
   font-family: Papyrus, fantasy !important;
-  color: rgba(0,0,0,0.7) !important;
+  color: rgba(0,0,0,0.7);
 }
 h1 {	font-size: 27px;}
 h2 {	font-size: 34px;}
