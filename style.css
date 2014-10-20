@@ -53,9 +53,9 @@ body {
 	min-width:300px;
   background:none no-repeat scroll 0 0 #fff;
   text-rendering:optimizelegibility;
-  color:#333333;
+  color: rgba(0,0,0,0.8);
 	overflow:hidden;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
+  font-family: "freight-text-pro", Cambria, Georgia, "Times New Roman", Times, serif;
 }
 .page-container {
 	padding-top:10px;
