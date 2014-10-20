@@ -53,9 +53,9 @@ body {
 	min-width:300px;
   background:none no-repeat scroll 0 0 #fff;
   text-rendering:optimizelegibility;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,0.8) !important;
 	overflow:hidden;
-  font-family: "freight-text-pro", Cambria, Georgia, "Times New Roman", Times, serif;
+  font-family: "freight-text-pro", Cambria, Georgia, "Times New Roman", Times, serif !important;
 }
 .page-container {
 	padding-top:10px;
