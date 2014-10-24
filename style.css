@@ -1422,12 +1422,12 @@ article.format-image .wp-caption a:hover:after{
 	display:block;
 	word-wrap: break-word;
 	text-decoration:none;
-	margin:5px 0 0 0;
+	margin: 15px 0 0 0;
 	/*color:#333333;*/
 }
 
 .logo-description h1.site-title {
-	font-size: 34px !important;
+	font-size: 54px !important;
   line-height: 3rem;
   font-variant: small-caps;
   color: white;
@@ -1440,6 +1440,9 @@ article.format-image .wp-caption a:hover:after{
   /* font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif !important; */
   font-family: webserveroff, Arial, Helvetica, sans-serif !important;
   font-weight: bold;
+
+  /* TODO */
+  display: none;
 }
 
 .main-navigation a, a.logo-description, .nav-next a, .nav-previous a {
