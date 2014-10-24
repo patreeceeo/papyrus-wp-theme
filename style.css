@@ -1430,6 +1430,7 @@ article.format-image .wp-caption a:hover:after{
 	font-size: 54px !important;
   line-height: 3rem;
   font-variant: small-caps;
+  font-style: italic;
   color: white;
 }
 
