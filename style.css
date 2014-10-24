@@ -782,7 +782,9 @@ ul#lang-select-popup{
   /*color:#333333;*/
   text-transform:uppercase;
   padding:7px 10px;
-	font-size:14px;
+	font-size:24px !important;
+  line-height: 27px;
+  font-family: webserveroff, Arial, Helvetica, sans-serif !important;
 }
 
 .main-navigation ul ul {
