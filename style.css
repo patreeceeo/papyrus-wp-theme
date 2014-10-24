@@ -1438,12 +1438,11 @@ article.format-image .wp-caption a:hover:after{
 	font-size:14px !important;
   color: white;
   letter-spacing: 1px;
-  /* font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif !important; */
   font-family: webserveroff, Arial, Helvetica, sans-serif !important;
+  font-style: italic;
   font-weight: bold;
-
-  /* TODO */
-  display: none;
+  color: rgba(255,255,255,0.5);
+  text-indent: 8px;
 }
 
 .main-navigation a, a.logo-description, .nav-next a, .nav-previous a {
