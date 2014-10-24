@@ -428,7 +428,7 @@ textarea{
 h1,h2,h3,h4,h5,h6 {
     clear:both;
 	line-height:1.2em;
-  font-family: Papyrus, fantasy !important;
+  font-family: webserveroff, Arial, Helvetica, sans-serif !important;
   color: rgba(0,0,0,0.7);
 }
 h1 {	font-size: 27px;}
@@ -1097,7 +1097,8 @@ ul#lang-select-popup{
 .wp-caption .wp-caption-text {
   margin: 3px 10px 10px 0;
   color: rgba(0,0,0,0.7);
-  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  /* font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif; */
+  font-family: webserveroff, Arial, Helvetica, sans-serif !important;
   font-size: 90%;
   align-content: center;
   text-align: center;
@@ -1436,7 +1437,8 @@ article.format-image .wp-caption a:hover:after{
 	font-size:14px !important;
   color: white;
   letter-spacing: 1px;
-  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif !important;
+  /* font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif !important; */
+  font-family: webserveroff, Arial, Helvetica, sans-serif !important;
   font-weight: bold;
 }
 
